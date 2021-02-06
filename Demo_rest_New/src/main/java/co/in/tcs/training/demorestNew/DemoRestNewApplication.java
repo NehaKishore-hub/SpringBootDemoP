@@ -1,4 +1,4 @@
-package co.in.tcs.training.Demo_rest_New;
+package co.in.tcs.training.demorestNew;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,19 +1,19 @@
-package co.in.tcs.training.Demo_rest_New;
+package co.in.tcs.training.demorestNew;
 
 
 class Trainee{
 	
 	private int empId;
-	private String Name;
+	private String name;
 	
 	public Trainee()
 	{
 		
 	}
-	public Trainee(int empId,String Name)
+	public Trainee(int empId,String name)
 	{
 		this.empId=empId;
-		this.Name=Name;
+		this.name=name;
 
 	}
 	public int  getEmpId() {
@@ -21,7 +21,7 @@ class Trainee{
 	}
 
 	public String getName() {
-		return Name;
+		return name;
 	}		
 	@Override public String toString() {     
 	      return (this.getName());           
